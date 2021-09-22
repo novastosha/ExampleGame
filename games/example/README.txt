@@ -1,0 +1,1 @@
+This dir will be automatically created on the GameAPI's data folder this will contain map info and possibly other things in future updates!

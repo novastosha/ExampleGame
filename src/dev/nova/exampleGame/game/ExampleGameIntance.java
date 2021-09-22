@@ -2,6 +2,9 @@ package dev.nova.exampleGame.game;
 
 import dev.nova.gameapi.game.base.instance.GameInstance;
 import dev.nova.gameapi.game.map.GameMap;
+import dev.nova.gameapi.game.map.options.GameOption;
+import dev.nova.gameapi.game.map.options.OptionType;
+import org.bukkit.Bukkit;
 
 import javax.annotation.Nonnull;
 
@@ -17,6 +20,9 @@ public class ExampleGameIntance extends GameInstance {
 
     public ExampleGameIntance(@Nonnull String gameBase, GameMap map) {
         super("Example Instance", gameBase, map, new String[]{"An example game!"}, "Example!");
+
+        //Loads an option from the map YML. (Can be parsed later.)
+        GameOption option = getMap().loadOption("example", OptionType.LOCATION,getMap(),true);
     }
 
     /**

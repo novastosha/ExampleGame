@@ -1,0 +1,17 @@
+data:
+  world: exampleMap
+  display-name: Nature
+  code-name: nature
+  player-limit: 1
+  #Example of map options, these options are required on every instance but can differ between maps.
+  options:
+    example:
+      type: LOCATION
+      value:
+        ==: org.bukkit.Location
+        world: DuelsTest
+        x: 184.38590450951074
+        y: 80.0
+        z: 257.2670655262119
+        pitch: 0
+        yaw: 0
