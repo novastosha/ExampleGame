@@ -1,0 +1,2 @@
+#Required to make a Game using my API.
+game-base-class: dev.nova.exampleGame.game.ExampleGameBase

@@ -1,0 +1,4 @@
+# Required to make a bukkit plugin
+name: ExampleGame
+version: 1.0
+main: dev.nova.exampleGame.ExamplePlugin
