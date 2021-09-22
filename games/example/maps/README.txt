@@ -1,4 +1,4 @@
-Every map info file, needs to have the name of the world name
+Every map info file, needs to have the name of the world as it's file name.
 
 Eg. World name is Example20
     The map info file is required to be Example20
